@@ -13,7 +13,6 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
 		<!-- Wrapper-->
 			<div id="wrapper">
 
@@ -63,23 +62,6 @@
 								</section>
 							</article>
 
-						<script type="text/javascript">
-					function enviar(){
-						var name =document.getElementById("name").value;
-						var mail =document.getElementById("email").value;
-						var msg =document.getElementById("message").value;
-						Email.send({
-    						Host : "smtp.gmail.com",
-    						Username : "jairbedoya06@gmail.com",
-   							Password : "oswaldo17",
-   							To : 'jairbedoya_17@hotmail.com',
-    						From : mail,
-    						Subject : "Comentario",
-    						Body : "message"
-							}).then(message => alert(message));
-						}
-					</script>
-
 							<!-- Contacto -->
 							<article id="contact" class="panel">
 								<header>
@@ -99,7 +81,7 @@
 												<textarea name="message" id="message" placeholder="Mensaje" rows="6"></textarea>
 											</div>
 											<div class="col-12">
-												<input type="submit" value="Enviar mensaje" onclick="enviar()" />
+												<input type="submit" value="Enviar mensaje" />
 											</div>
 										</div>
 									</div>
@@ -111,7 +93,7 @@
 				<!-- Pie de página-->
 					<div id="footer">
 						<ul class="copyright">
-							<li>&copy; Jair Bedoya Benavides.</li><li>Design: HTML5 UP</li>
+							<li>&copy; Jair Bedoya Benavides.</li><li>Design: HTML5 UP</li><li><a href="https://github.com/JairBedoya17/Blog">Repositorio.</a></li>
 						</ul>
 					</div>
 
@@ -123,7 +105,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="https://smtpjs.com/v3/smtp.js"></script>
-
+			
 	</body>
 </html>
