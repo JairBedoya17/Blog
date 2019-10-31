@@ -1,92 +1,113 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<title>Blog</title>
-</head>
-<body>
+		<!-- Wrapper-->
+			<div id="wrapper">
 
-	<!-- Navigation -->
-	<nav class="site-navigation">
-		<div class="site-navigation-inner site-container">
-			
-			<div class="main-navigation">
-				<ul class="main-navigation__ul">
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Acerca de mi</a></li>
-					<li><a href="#">Contacto</a></li>			
-				</ul>
-			</div>
-			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
-			</div>
-			<script>
-				function myFunction(x) {
-					x.classList.toggle("change");
-				}
-			</script>
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Blog</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Quiz</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contacto</span></a>
+					</nav>
 
-		</div>
-	</nav>
-	<!-- Navigation end -->
+				<!-- Main -->
+					<div id="main">
 
-	<!-- Top banner -->
-	<section class="fh5co-top-banner">
-		<div class="top-banner__inner site-container">
-			<div class="top-banner__image">
-				
-			</div>
-			<div class="top-banner__text">
-				<div class="top-banner__text-up">
-					<span class="brand-span">Hola! Soy</span>
-					<h2 class="top-banner__h2">Jair Bedoya Benavides</h2>
-				</div>
-				<p>Estudiante de la PUCESE</p>
-				
-			</div>
-		</div>
-	</section>
-	<!-- Top banner end -->
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Jair Bedoya Benavides</h1>
+									<p>Estudiante de la PUCESE</p>
+									<p><h4><i>"Naci en la ciudad de Esmeraldas, soy un estudiante de la Pontificia Universidad Catolica del Ecuador sede Esmeraldas (PUCESE) 
+									de la carrera de Ingenieria en Sistemas, 
+									me gusta hacer mucho deporte, salir por las noches, pasar tiempo con familia y amigos, 
+									viajar y leer. Espero y el blog sea de agrado al publico" </h4></i></p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/pic01.jpg" alt="" />
+								</a>
+							</article>
 
-	<!-- Footer -->
-	<footer class="site-footer">
-		<div class="site-container">
-			<div class="footer-inner">
-				<div class="footer-info">
-						<div class="footer-info__right">
-						<h5>Informacion:</h5>
-						<p class="Celular">Phone: +593996244377</p>
-						<p>Email : jair.bedoya@pucese.edu.ec</p>
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Quiz de HTML y CSS</h2>
+								</header>
+								<p>
+									Capturas de puntuacion en Quiz de HTML y CSS.
+								</p>
+								<section>
+									<div class="row">
+										<div class="col-4-small col-6-small col-12-small">
+											<img src="images/pic02.jpg" alt="">
+										</div>
+										<div class="col-4-small col-6-small col-12-small">
+											<img src="images/pic03.jpg" alt="">
+										</div>
+									</div>
+								</section>
+							</article>
+
+						<!-- Contacto -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contactame</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Nombre" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Correo Electronico" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Asunto" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Mensaje" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Enviar mensaje" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
 					</div>
-				</div>
-				<div class="footer-contact-form">
-					<h5>Contacto</h5>
-					<form class="Contacto">
-						<div class="contact-form__input">
-							<input type="text" name="name" placeholder="Nombre">
-							<input type="email" name="email" placeholder="Correo Electronico">
-						</div>
-						<textarea></textarea>
-						<input type="submit" name="submit" value="Submit" class="submit-button">
-					</form>
-				</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
 			</div>
-		</div>
-		
-	</footer>
-	<!-- Footer end -->
 
-	<!-- Scripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/main.js"></script>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-</body>
+	</body>
 </html>
